@@ -1,4 +1,4 @@
-setwd('e:/eda')
+#setwd('e:/eda')
 data <- read.table('household_power_consumption.txt',sep=';',header=TRUE)
 
 data$Date <- as.Date(data$Date, "%d/%m/%Y")
